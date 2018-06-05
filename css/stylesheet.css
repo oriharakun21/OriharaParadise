@@ -1,0 +1,69 @@
+html{width:100%; height:100%}
+body {width: 100%;height:100%; margin : 0; padding : 0; text-align : center; letter-spacing: -0.6px; font-size : 100%;background: #ffffff url("../images/design/mono.png");}
+a {margin : 0px; padding : 0px; color:green;}
+h1 {color:#ff007f;text-align:center}
+h2{color:#ff007f;text-align:center}
+/* 全体 */
+#contents{position: relative; color:black; min-height: 100%; display: flex;
+  flex-direction: column;}
+#wall{width: 1080px; height: auto; margin: 0 auto;flex: 1;}
+#backwall{position:absolute; z-index: -1; width: 100%; height: 156px; min-width: 1080px; background-color: rgba(0,0,0,0.80);}
+/* ヘッダー */
+header{margin: 0px auto; width:700px; height:auto;}
+#subtext{margin: 0px; color: white; font-size: 80%;}
+#title-img{cursor: default; margin-top:30px;}
+/* メイン(グリッド) */
+#leyout{width:1080px; margin: 20px auto; display: grid; grid-template-rows: 200px 200px; grid-template-columns: 200px 200px 280px 200px 200px;}
+#profimg{grid-row: 1; grid-column: 1; width: 180px; margin: 10px; border: double #ff007f;}
+#profmain{grid-row: 1; grid-column: 2; width: 180px; margin: 10px;border: double #ff007f;}
+#boyaki{grid-row: 2; grid-column: 1 / span 2; width: 380px; margin: 10px;border: double green;}
+#toppic{grid-row: 1 / span 2; grid-column: 3; width: 260px; margin: 10px;border: double #ff007f;}
+#index{grid-row: 1; grid-column: 4 / span 5; width: 380px; margin: 10px;border: double green;}
+#market{grid-row: 2; grid-column: 4; width: 180px; margin: 10px;border: double #ff007f;}
+#link{grid-row: 2; grid-column: 5; width: 180px; margin: 10px;border: double #ff007f;}
+/* サブページ（グリッド） */
+#leyoutsub{width:880px; margin: 20px auto; display: grid; grid-template-rows: 200px 200px; grid-template-columns: 200px 200px 200px 200px;}
+.con1{grid-row: 1 / span 2; grid-column: 1; width: 180px; margin: 10px; border: double green;}
+.con2{grid-row: 1 / span 2; grid-column: 2; width: 180px; margin: 10px;border: double green;}
+.gotop{grid-row: 2; grid-column: 4; width: 180px; margin: 10px;border: double #ff007f;}
+/* 文章 */
+h1 {color:#ff007f;text-align:center}
+h2.pink{color:#ff007f;text-align:center; margin:0px; padding:0px; font-size: 20px;}
+h2.green{color: green; text-align: center; margin:0px; padding:0px; font-size: 20px}
+h3.mini-title{margin:10px auto; padding:0px; font-size: 10px; color: #ff007f;}
+.proftext{margin:0px 20px; color: white; font-size: 70%;text-align:left;}
+.textboyaki{text-align: left; margin:0px 20px; font-size: 80%;}
+/* プロフィール */
+#proficon{margin:2px}
+.topicback{background-color: rgba(0,0,0,0.80);width: 170px; margin: 5px; height: 165px;}
+.topicbackwidth{background-color: rgba(255,255,255,0.90);width: 370px; margin: 5px; height: 165px;}
+.topikbackheight{background-color: rgba(0,0,0,0.80);width: 170; height: 365px; margin: 5px;}
+/* 目次 */
+#indexgrid{display: grid; grid-template-rows: 60px 60px; grid-template-columns: 180px 180px;list-style-type: none;margin: 0 auto;padding: 0; color: gray}
+#indexgrid li{border: medium dashed green; width: 170px; height: 50px; margin: 7px;}
+#tag1{grid-row: 1; grid-column: 1;}
+#tag2{grid-row: 1; grid-column: 2;}
+#tag3{grid-row: 2; grid-column: 1;}
+#tag4{grid-row: 2; grid-column: 2;}
+.indeximg{height: 45px;}
+a.textlink{color:green;}
+/* ぼやき部分 */
+/* リンク */
+#linkgrid{display: grid; grid-template-rows: 50px 50px; grid-template-columns: 50px 50px;list-style-type: none;margin: 30px 35px;padding: 0;}
+#linkgrid li a img{width: 50px; height: 50px;}
+#link1{grid-row: 1; grid-column: 1;}
+#link2{grid-row: 1; grid-column: 2;}
+/* ゲームページ */
+.gamepic{margin: 10px auto;}
+.a_noline{text-decoration: none;}
+.topicback_white{background-color: rgba(255,255,255,0.80);width: 170px; margin: 5px; height: 165px;}
+h2.pink_link{color:#ff007f;text-align:center; margin:0px; padding:65px 0px; font-size: 24px;}
+/* under以下のページ */
+#leyoutunder{width: 880px; margin: 10px auto;}
+#topicbackunder{background-color: rgba(0,0,0,0.85); padding: 40px 50px;}
+#topicbackunder p{color:white; text-align: left;}
+.list{text-align: left; color: white;}
+/* フッター */
+#footer{positon: absolute; bottom:0; width:100%; height: 50px; min-width: 1080px;background-color: rgba(0,0,0,0.80);grid-row-start: 2;
+  grid-row-end: 3;}
+small{font-size: 0.8em; text-align: center; color:white;}

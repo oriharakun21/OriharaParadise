@@ -1,0 +1,13 @@
+[
+null,
+{"id":1,"atypeId":7,"description":"ゆうしゃが　もつに　ふさわしい　たて\nちょっと　よごれてる","etypeId":2,"traits":[{"code":14,"dataId":1,"value":1},{"code":14,"dataId":2,"value":1},{"code":14,"dataId":3,"value":1},{"code":14,"dataId":4,"value":1},{"code":14,"dataId":5,"value":1},{"code":14,"dataId":6,"value":1},{"code":14,"dataId":7,"value":1},{"code":14,"dataId":8,"value":1},{"code":14,"dataId":9,"value":1},{"code":14,"dataId":10,"value":1}],"iconIndex":128,"name":"ゆうしゃのたて","note":"","params":[0,0,0,500,0,500,0,500],"price":0},
+{"id":2,"atypeId":1,"description":"このせかいでは　よくみる　ぼうし","etypeId":3,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":130,"name":"よくあるぼうし","note":"","params":[0,0,0,0,0,0,0,0],"price":50},
+{"id":3,"atypeId":1,"description":"ぜんらより　マシ","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":135,"name":"よくあるふく","note":"","params":[0,0,0,0,0,0,0,0],"price":60},
+{"id":4,"atypeId":1,"description":"ただの　リング\nおしゃれは　たいせつ","etypeId":5,"traits":[],"iconIndex":145,"name":"リング","note":"","params":[0,0,0,0,0,0,0,0],"price":10},
+{"id":5,"atypeId":1,"description":"こんなの　もってても\nいみない　きがする","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":129,"name":"きのいた","note":"","params":[0,0,0,0,0,0,0,0],"price":10},
+{"id":6,"atypeId":7,"description":"ゆうしゃが　きるに　ふさわしい　よろい\nかなり　ふるくさい","etypeId":4,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":137,"name":"ゆうしゃのよろい","note":"","params":[5000,0,0,500,0,500,500,0],"price":0},
+{"id":7,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,500,0,0,0,0],"price":0},
+{"id":8,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":9,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"id":10,"atypeId":0,"description":"","etypeId":2,"traits":[{"code":22,"dataId":1,"value":0}],"iconIndex":0,"name":"","note":"","params":[0,0,0,0,0,0,0,0],"price":0}
+]
