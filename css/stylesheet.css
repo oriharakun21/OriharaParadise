@@ -6,7 +6,7 @@ h2{color:#ff007f; text-align:center}
 /* 全体 */
 #contents{position:relative; color:black; min-height:100%; display:flex; flex-direction:column;}
 #wall{width:1080px; height:auto; margin:0 auto; flex:1;}
-#back-wall{position:absolute; z-index:-1; width:100%; height:156px; min-width: 1080px; background-color: rgba(0,0,0,0.80);}
+#backwall{position:absolute; z-index:-1; width:100%; height:156px; min-width: 1080px; background-color: rgba(0,0,0,0.80);}
 /* ヘッダー */
 header{margin: 0px auto; width:700px; height:auto;}
 #subtext{margin: 0px; color: white; font-size: 80%;}
